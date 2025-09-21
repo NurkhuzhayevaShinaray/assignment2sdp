@@ -13,9 +13,6 @@ public class Main {
         foundation.apply();
         mascara.apply();
         lipstick.apply();
-
-        System.out.println(foundation.getDetails());
-        System.out.println(mascara.getDetails());
-        System.out.println(lipstick.getDetails());
+        
     }
 }

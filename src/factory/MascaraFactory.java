@@ -4,7 +4,7 @@ import product.Mascara;
 
 public class MascaraFactory implements CosmeticFactory{
 
-    public CosmeticProduct createProduct(String name, String shade) {
-        return new Mascara(name, shade);
+    public CosmeticProduct createProduct(String name, String shade, String brand) {
+        return new Mascara(name, shade, brand);
     }
 }

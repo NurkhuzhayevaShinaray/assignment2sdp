@@ -9,14 +9,14 @@ public class Mac implements CosmeticBrandFactory{
 
     @Override
     public CosmeticProduct createFoundation() {
-        return new Foundation("Studio fix fluid","NC25");
+        return new Foundation("Studio fix fluid","NC25","Mac");
     }
     @Override
     public CosmeticProduct createMascara() {
-        return new Mascara("M·A·CStack","chestnut stack");
+        return new Mascara("M·A·CStack","chestnut stack","Mac");
     }
     @Override
     public CosmeticProduct createLipstick() {
-        return new Lipstick("M·A·Cximal Silky","mull it to the max");
+        return new Lipstick("M·A·Cximal Silky","mull it to the max", "Mac");
     }
 }

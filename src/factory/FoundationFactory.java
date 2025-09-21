@@ -5,7 +5,7 @@ import product.Foundation;
 public class FoundationFactory implements CosmeticFactory{
 
     @Override
-    public CosmeticProduct createProduct(String name, String shade) {
-        return new Foundation(name,shade);
+    public CosmeticProduct createProduct(String name, String shade, String brand) {
+        return new Foundation(name,shade,brand);
     }
 }
